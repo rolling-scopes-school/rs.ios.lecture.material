@@ -13,10 +13,10 @@ The repository has the following sctructure:
 ```
 .
 ├── README.md
-├── <iOS RSSchool Course Year> 
+├── <iOS RSSchool Course Year>
 │   ├── <Lecture topic>
 │   │   ├── Demos
-│   │   │   ├── Demo <Demo number>
+│   │   │   ├── Demo <Demo number> – <Demo title>
 │   │   │   │   ├── <Demo content>
 │   │   ├── Tasks
 │   │   │   ├── Task <Task number>
