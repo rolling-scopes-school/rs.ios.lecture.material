@@ -3,8 +3,7 @@
 ## Shapes
 1. Implement **abstract class** for geometric shape with methods for computing area and perimeter. Implement concrete classes Circle, Rectangle, Triangle inherited from this class. Use **instance variable** inside class extension for storing information about figure. Take care about comparing float numbers inside `isEqual`. 
 ```objc
-@interface Shape: NSObject
-- (instancetype)init NS_UNAVAILABLE; 
+@interface Shape: NSObject 
 - (float)area; // return 0
 - (float)perimeter; // return 0
 - (NSString *)description; // return string with memory address, NSStringFromClass([self class]), area, perimeter
