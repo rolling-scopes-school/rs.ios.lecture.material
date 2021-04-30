@@ -59,14 +59,14 @@
 
 3. Create separate files for headers and implementations of classes. Create main.m with main function. Test created classes inside main function. For instances of protocol classes use `id<ShapeType>`. Compile sources with clang. 
 ```bash
-clang -f-objc-arc -framework foundation main.m Shape.m Rectangle.m Circle.m Triangle.m -o shapes
+clang -fobjc-arc -framework foundation main.m Shape.m Rectangle.m Circle.m Triangle.m -o shapes
 ```
 
 4. Create Makefile and test every rule inside.
 
 ```makefile
 build: main.m Shape.m Rectangle.m Circle.m Triangle.m
-    @clang -f-objc-arc -framework foundation main.m Shape.m Rectangle.m Circle.m Triangle.m -o shapes
+    @clang -fobjc-arc -framework foundation main.m Shape.m Rectangle.m Circle.m Triangle.m -o shapes
 run:
     @./shapes
 clean:
