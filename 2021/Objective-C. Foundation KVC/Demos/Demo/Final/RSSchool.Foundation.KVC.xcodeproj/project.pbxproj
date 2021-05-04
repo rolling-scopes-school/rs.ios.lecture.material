@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4AD387263EC29700CBC739 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AD386263EC29700CBC739 /* Person.m */; };
+		5A4AD388263EC29700CBC739 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AD386263EC29700CBC739 /* Person.m */; };
+		5A4AD391263ED28000CBC739 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AD390263ED28000CBC739 /* Address.m */; };
+		5A4AD392263ED28000CBC739 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AD390263ED28000CBC739 /* Address.m */; };
+		5A627BE026403405007E3D12 /* sampleText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A627BDF26403405007E3D12 /* sampleText.txt */; };
+		5A627BE52640433A007E3D12 /* NSRangesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A627BE42640433A007E3D12 /* NSRangesTests.m */; };
+		5A97C1EC263D29DE000E2AAC /* NSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C1EA263D29DE000E2AAC /* NSStringTests.m */; };
+		5A97C1F7263D5028000E2AAC /* NSCharacterSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C1F6263D5028000E2AAC /* NSCharacterSetTests.m */; };
+		5A97C208263D8B64000E2AAC /* NSDateFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C207263D8B64000E2AAC /* NSDateFormatterTests.m */; };
+		5A97C213263DE3AE000E2AAC /* NSNumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C212263DE3AE000E2AAC /* NSNumberFormatterTests.m */; };
+		5A97C21B263DF0E4000E2AAC /* NSDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C21A263DF0E4000E2AAC /* NSDataTests.m */; };
+		5A97C222263DF164000E2AAC /* JSONTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C221263DF164000E2AAC /* JSONTestObject.m */; };
+		5A97C223263DF164000E2AAC /* JSONTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C221263DF164000E2AAC /* JSONTestObject.m */; };
+		5A97C231263DFBA3000E2AAC /* NSURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97C230263DFBA3000E2AAC /* NSURLTests.m */; };
+		5AA402342639D7BB0001DA33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA402332639D7BB0001DA33 /* AppDelegate.m */; };
+		5AA402372639D7BB0001DA33 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA402362639D7BB0001DA33 /* SceneDelegate.m */; };
+		5AA4023A2639D7BB0001DA33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA402392639D7BB0001DA33 /* ViewController.m */; };
+		5AA4023D2639D7BB0001DA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4023B2639D7BB0001DA33 /* Main.storyboard */; };
+		5AA4023F2639D7BE0001DA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4023E2639D7BE0001DA33 /* Assets.xcassets */; };
+		5AA402422639D7BE0001DA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA402402639D7BE0001DA33 /* LaunchScreen.storyboard */; };
+		5AA402452639D7BE0001DA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA402442639D7BE0001DA33 /* main.m */; };
+		5AA4024F2639D7BE0001DA33 /* RSSchool_Foundation_KVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4024E2639D7BE0001DA33 /* RSSchool_Foundation_KVCTests.m */; };
+		5AA4025A2639D7BF0001DA33 /* RSSchool_Foundation_KVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA402592639D7BF0001DA33 /* RSSchool_Foundation_KVCUITests.m */; };
+		5AA4026E2639DD1F0001DA33 /* RSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4026D2639DD1F0001DA33 /* RSDevice.m */; };
+		5AA4026F2639DD1F0001DA33 /* RSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4026D2639DD1F0001DA33 /* RSDevice.m */; };
+		5AA402762639E1890001DA33 /* RSDevice.h in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4026C2639DD1F0001DA33 /* RSDevice.h */; };
+		5AA4027A2639E1890001DA33 /* RSDevice.h in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4026C2639DD1F0001DA33 /* RSDevice.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA4024B2639D7BE0001DA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA402272639D7BB0001DA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA4022E2639D7BB0001DA33;
+			remoteInfo = RSSchool.Foundation.KVC;
+		};
+		5AA402562639D7BF0001DA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA402272639D7BB0001DA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA4022E2639D7BB0001DA33;
+			remoteInfo = RSSchool.Foundation.KVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4AD385263EC29700CBC739 /* Person.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = Person.h; sourceTree = "<group>"; };
+		5A4AD386263EC29700CBC739 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5A4AD38F263ED28000CBC739 /* Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		5A4AD390263ED28000CBC739 /* Address.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		5A627BDF26403405007E3D12 /* sampleText.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sampleText.txt; sourceTree = "<group>"; };
+		5A627BE42640433A007E3D12 /* NSRangesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRangesTests.m; sourceTree = "<group>"; };
+		5A97C1EA263D29DE000E2AAC /* NSStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTests.m; sourceTree = "<group>"; };
+		5A97C1F6263D5028000E2AAC /* NSCharacterSetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSetTests.m; sourceTree = "<group>"; };
+		5A97C207263D8B64000E2AAC /* NSDateFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatterTests.m; sourceTree = "<group>"; };
+		5A97C212263DE3AE000E2AAC /* NSNumberFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatterTests.m; sourceTree = "<group>"; };
+		5A97C21A263DF0E4000E2AAC /* NSDataTests.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = NSDataTests.m; sourceTree = "<group>"; };
+		5A97C220263DF164000E2AAC /* JSONTestObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = JSONTestObject.h; sourceTree = "<group>"; };
+		5A97C221263DF164000E2AAC /* JSONTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONTestObject.m; sourceTree = "<group>"; };
+		5A97C230263DFBA3000E2AAC /* NSURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLTests.m; sourceTree = "<group>"; };
+		5AA4022F2639D7BB0001DA33 /* RSSchool.Foundation.KVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool.Foundation.KVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA402322639D7BB0001DA33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AA402332639D7BB0001DA33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AA402352639D7BB0001DA33 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5AA402362639D7BB0001DA33 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5AA402382639D7BB0001DA33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AA402392639D7BB0001DA33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AA4023C2639D7BB0001DA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AA4023E2639D7BE0001DA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA402412639D7BE0001DA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AA402432639D7BE0001DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA402442639D7BE0001DA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AA4024A2639D7BE0001DA33 /* RSSchool.Foundation.KVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchool.Foundation.KVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA4024E2639D7BE0001DA33 /* RSSchool_Foundation_KVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSchool_Foundation_KVCTests.m; sourceTree = "<group>"; };
+		5AA402502639D7BE0001DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA402552639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchool.Foundation.KVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA402592639D7BF0001DA33 /* RSSchool_Foundation_KVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSchool_Foundation_KVCUITests.m; sourceTree = "<group>"; };
+		5AA4025B2639D7BF0001DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA4026C2639DD1F0001DA33 /* RSDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = RSDevice.h; sourceTree = "<group>"; };
+		5AA4026D2639DD1F0001DA33 /* RSDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDevice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA4022C2639D7BB0001DA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA402472639D7BE0001DA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA402522639D7BF0001DA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4AD378263EC21000CBC739 /* Predicate */ = {
+			isa = PBXGroup;
+			children = (
+				5A4AD385263EC29700CBC739 /* Person.h */,
+				5A4AD386263EC29700CBC739 /* Person.m */,
+				5A4AD38F263ED28000CBC739 /* Address.h */,
+				5A4AD390263ED28000CBC739 /* Address.m */,
+			);
+			path = Predicate;
+			sourceTree = "<group>";
+		};
+		5A97C21F263DF149000E2AAC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5A97C220263DF164000E2AAC /* JSONTestObject.h */,
+				5A97C221263DF164000E2AAC /* JSONTestObject.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5AA402262639D7BB0001DA33 = {
+			isa = PBXGroup;
+			children = (
+				5A627BDF26403405007E3D12 /* sampleText.txt */,
+				5AA402312639D7BB0001DA33 /* RSSchool.Foundation.KVC */,
+				5AA4024D2639D7BE0001DA33 /* RSSchool.Foundation.KVCTests */,
+				5AA402582639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests */,
+				5AA402302639D7BB0001DA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA402302639D7BB0001DA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4022F2639D7BB0001DA33 /* RSSchool.Foundation.KVC.app */,
+				5AA4024A2639D7BE0001DA33 /* RSSchool.Foundation.KVCTests.xctest */,
+				5AA402552639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA402312639D7BB0001DA33 /* RSSchool.Foundation.KVC */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4026A2639DCBE0001DA33 /* Examples */,
+				5AA402322639D7BB0001DA33 /* AppDelegate.h */,
+				5AA402332639D7BB0001DA33 /* AppDelegate.m */,
+				5AA402352639D7BB0001DA33 /* SceneDelegate.h */,
+				5AA402362639D7BB0001DA33 /* SceneDelegate.m */,
+				5AA402382639D7BB0001DA33 /* ViewController.h */,
+				5AA402392639D7BB0001DA33 /* ViewController.m */,
+				5AA4023B2639D7BB0001DA33 /* Main.storyboard */,
+				5AA4023E2639D7BE0001DA33 /* Assets.xcassets */,
+				5AA402402639D7BE0001DA33 /* LaunchScreen.storyboard */,
+				5AA402432639D7BE0001DA33 /* Info.plist */,
+				5AA402442639D7BE0001DA33 /* main.m */,
+			);
+			path = RSSchool.Foundation.KVC;
+			sourceTree = "<group>";
+		};
+		5AA4024D2639D7BE0001DA33 /* RSSchool.Foundation.KVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4024E2639D7BE0001DA33 /* RSSchool_Foundation_KVCTests.m */,
+				5A97C1EA263D29DE000E2AAC /* NSStringTests.m */,
+				5AA402502639D7BE0001DA33 /* Info.plist */,
+				5A97C1F6263D5028000E2AAC /* NSCharacterSetTests.m */,
+				5A97C207263D8B64000E2AAC /* NSDateFormatterTests.m */,
+				5A97C212263DE3AE000E2AAC /* NSNumberFormatterTests.m */,
+				5A97C21A263DF0E4000E2AAC /* NSDataTests.m */,
+				5A97C230263DFBA3000E2AAC /* NSURLTests.m */,
+				5A627BE42640433A007E3D12 /* NSRangesTests.m */,
+			);
+			path = RSSchool.Foundation.KVCTests;
+			sourceTree = "<group>";
+		};
+		5AA402582639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA402592639D7BF0001DA33 /* RSSchool_Foundation_KVCUITests.m */,
+				5AA4025B2639D7BF0001DA33 /* Info.plist */,
+			);
+			path = RSSchool.Foundation.KVCUITests;
+			sourceTree = "<group>";
+		};
+		5AA4026A2639DCBE0001DA33 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				5A4AD378263EC21000CBC739 /* Predicate */,
+				5A97C21F263DF149000E2AAC /* Data */,
+				5AA4026B2639DCD30001DA33 /* Object equality */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		5AA4026B2639DCD30001DA33 /* Object equality */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4026C2639DD1F0001DA33 /* RSDevice.h */,
+				5AA4026D2639DD1F0001DA33 /* RSDevice.m */,
+			);
+			path = "Object equality";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA4022E2639D7BB0001DA33 /* RSSchool.Foundation.KVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA4025E2639D7BF0001DA33 /* Build configuration list for PBXNativeTarget "RSSchool.Foundation.KVC" */;
+			buildPhases = (
+				5AA4022B2639D7BB0001DA33 /* Sources */,
+				5AA4022C2639D7BB0001DA33 /* Frameworks */,
+				5AA4022D2639D7BB0001DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool.Foundation.KVC;
+			productName = RSSchool.Foundation.KVC;
+			productReference = 5AA4022F2639D7BB0001DA33 /* RSSchool.Foundation.KVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA402492639D7BE0001DA33 /* RSSchool.Foundation.KVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA402612639D7BF0001DA33 /* Build configuration list for PBXNativeTarget "RSSchool.Foundation.KVCTests" */;
+			buildPhases = (
+				5AA402462639D7BE0001DA33 /* Sources */,
+				5AA402472639D7BE0001DA33 /* Frameworks */,
+				5AA402482639D7BE0001DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA4024C2639D7BE0001DA33 /* PBXTargetDependency */,
+			);
+			name = RSSchool.Foundation.KVCTests;
+			productName = RSSchool.Foundation.KVCTests;
+			productReference = 5AA4024A2639D7BE0001DA33 /* RSSchool.Foundation.KVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA402542639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA402642639D7BF0001DA33 /* Build configuration list for PBXNativeTarget "RSSchool.Foundation.KVCUITests" */;
+			buildPhases = (
+				5AA402512639D7BF0001DA33 /* Sources */,
+				5AA402522639D7BF0001DA33 /* Frameworks */,
+				5AA402532639D7BF0001DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA402572639D7BF0001DA33 /* PBXTargetDependency */,
+			);
+			name = RSSchool.Foundation.KVCUITests;
+			productName = RSSchool.Foundation.KVCUITests;
+			productReference = 5AA402552639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA402272639D7BB0001DA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5AA4022E2639D7BB0001DA33 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5AA402492639D7BE0001DA33 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5AA4022E2639D7BB0001DA33;
+					};
+					5AA402542639D7BF0001DA33 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5AA4022E2639D7BB0001DA33;
+					};
+				};
+			};
+			buildConfigurationList = 5AA4022A2639D7BB0001DA33 /* Build configuration list for PBXProject "RSSchool.Foundation.KVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA402262639D7BB0001DA33;
+			productRefGroup = 5AA402302639D7BB0001DA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA4022E2639D7BB0001DA33 /* RSSchool.Foundation.KVC */,
+				5AA402492639D7BE0001DA33 /* RSSchool.Foundation.KVCTests */,
+				5AA402542639D7BF0001DA33 /* RSSchool.Foundation.KVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA4022D2639D7BB0001DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA402422639D7BE0001DA33 /* LaunchScreen.storyboard in Resources */,
+				5AA4023F2639D7BE0001DA33 /* Assets.xcassets in Resources */,
+				5AA4023D2639D7BB0001DA33 /* Main.storyboard in Resources */,
+				5A627BE026403405007E3D12 /* sampleText.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA402482639D7BE0001DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA402532639D7BF0001DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA4022B2639D7BB0001DA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4AD391263ED28000CBC739 /* Address.m in Sources */,
+				5AA4023A2639D7BB0001DA33 /* ViewController.m in Sources */,
+				5AA402342639D7BB0001DA33 /* AppDelegate.m in Sources */,
+				5A4AD387263EC29700CBC739 /* Person.m in Sources */,
+				5AA402762639E1890001DA33 /* RSDevice.h in Sources */,
+				5AA402452639D7BE0001DA33 /* main.m in Sources */,
+				5AA4026E2639DD1F0001DA33 /* RSDevice.m in Sources */,
+				5A97C222263DF164000E2AAC /* JSONTestObject.m in Sources */,
+				5AA402372639D7BB0001DA33 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA402462639D7BE0001DA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4AD392263ED28000CBC739 /* Address.m in Sources */,
+				5A97C1F7263D5028000E2AAC /* NSCharacterSetTests.m in Sources */,
+				5AA4024F2639D7BE0001DA33 /* RSSchool_Foundation_KVCTests.m in Sources */,
+				5A4AD388263EC29700CBC739 /* Person.m in Sources */,
+				5A627BE52640433A007E3D12 /* NSRangesTests.m in Sources */,
+				5A97C208263D8B64000E2AAC /* NSDateFormatterTests.m in Sources */,
+				5A97C21B263DF0E4000E2AAC /* NSDataTests.m in Sources */,
+				5A97C1EC263D29DE000E2AAC /* NSStringTests.m in Sources */,
+				5A97C213263DE3AE000E2AAC /* NSNumberFormatterTests.m in Sources */,
+				5AA4026F2639DD1F0001DA33 /* RSDevice.m in Sources */,
+				5AA4027A2639E1890001DA33 /* RSDevice.h in Sources */,
+				5A97C223263DF164000E2AAC /* JSONTestObject.m in Sources */,
+				5A97C231263DFBA3000E2AAC /* NSURLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA402512639D7BF0001DA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA4025A2639D7BF0001DA33 /* RSSchool_Foundation_KVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA4024C2639D7BE0001DA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA4022E2639D7BB0001DA33 /* RSSchool.Foundation.KVC */;
+			targetProxy = 5AA4024B2639D7BE0001DA33 /* PBXContainerItemProxy */;
+		};
+		5AA402572639D7BF0001DA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA4022E2639D7BB0001DA33 /* RSSchool.Foundation.KVC */;
+			targetProxy = 5AA402562639D7BF0001DA33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AA4023B2639D7BB0001DA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA4023C2639D7BB0001DA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AA402402639D7BE0001DA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA402412639D7BE0001DA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AA4025C2639D7BF0001DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AA4025D2639D7BF0001DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA4025F2639D7BF0001DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool.Foundation.KVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rsschool.ios.RSSchool-Foundation-KVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA402602639D7BF0001DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool.Foundation.KVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rsschool.ios.RSSchool-Foundation-KVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AA402622639D7BF0001DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool.Foundation.KVCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dgsedg.csffs.RSSchool-Foundation-KVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSchool.Foundation.KVC.app/RSSchool.Foundation.KVC";
+			};
+			name = Debug;
+		};
+		5AA402632639D7BF0001DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool.Foundation.KVCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dgsedg.csffs.RSSchool-Foundation-KVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSchool.Foundation.KVC.app/RSSchool.Foundation.KVC";
+			};
+			name = Release;
+		};
+		5AA402652639D7BF0001DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool.Foundation.KVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dgsedg.csffs.RSSchool-Foundation-KVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSSchool.Foundation.KVC;
+			};
+			name = Debug;
+		};
+		5AA402662639D7BF0001DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSSchool.Foundation.KVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dgsedg.csffs.RSSchool-Foundation-KVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSSchool.Foundation.KVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA4022A2639D7BB0001DA33 /* Build configuration list for PBXProject "RSSchool.Foundation.KVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA4025C2639D7BF0001DA33 /* Debug */,
+				5AA4025D2639D7BF0001DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA4025E2639D7BF0001DA33 /* Build configuration list for PBXNativeTarget "RSSchool.Foundation.KVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA4025F2639D7BF0001DA33 /* Debug */,
+				5AA402602639D7BF0001DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA402612639D7BF0001DA33 /* Build configuration list for PBXNativeTarget "RSSchool.Foundation.KVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA402622639D7BF0001DA33 /* Debug */,
+				5AA402632639D7BF0001DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA402642639D7BF0001DA33 /* Build configuration list for PBXNativeTarget "RSSchool.Foundation.KVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA402652639D7BF0001DA33 /* Debug */,
+				5AA402662639D7BF0001DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA402272639D7BB0001DA33 /* Project object */;
+}
