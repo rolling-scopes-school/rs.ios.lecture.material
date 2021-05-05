@@ -14,10 +14,29 @@
 
 @implementation Task
 
-// MAIN TASK:
-// Fix all memory management issues by adding retain, release and autorelease methods or
-// changing property ownership attributes. You shouldn't modify the existing base code.
-// Check yourself using special instruments and by crosscheck :)
+/* MAIN TASK:
+
+ Fix all memory management issues.
+
+ What is allowed to do:
+ - add retain, release, autolease calls;
+ - implement dealloc method;
+ - change property ownership attributes;
+ - modify property setters;
+ - contact lecturer/mentor if the task description is unclear for you or
+   if you have any difficulties, tried to figure out youself and tried to
+   find answers in the lecture/documentation but without success.
+
+ What is forbidden to do:
+ - move existing code from one place to another;
+ - delete existing code;
+ - change app logic;
+
+ Check yourself using special instruments and by crosscheck :)
+
+ Good luck!
+
+*/
 
 - (void)execute {
     Printer *printer = [[Printer alloc] init];
