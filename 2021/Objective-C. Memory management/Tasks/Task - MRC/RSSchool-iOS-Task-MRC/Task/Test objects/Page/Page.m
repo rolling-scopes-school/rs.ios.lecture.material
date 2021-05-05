@@ -20,7 +20,10 @@
 }
 
 + (instancetype)pageWithText:(Text *)text {
-    return [[Page alloc] initWithText:text];
+    
+    
+    return [[[Page alloc] initWithText:text] autorelease];
+    
 }
 
 - (NSString *)content {

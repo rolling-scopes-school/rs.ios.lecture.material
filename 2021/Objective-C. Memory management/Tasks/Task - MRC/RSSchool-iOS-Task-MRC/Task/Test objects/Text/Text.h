@@ -15,7 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Text : NSObject<Printable>
 
-@property (nonatomic, readonly, retain) NSString *content;
+//@property (nonatomic, readonly, retain) NSString *content;
+@property (nonatomic, readonly,assign) NSString *content;
 
 - (instancetype)initWithContent:(NSString *)content;
 + (instancetype)textWithContent:(NSString *)content;

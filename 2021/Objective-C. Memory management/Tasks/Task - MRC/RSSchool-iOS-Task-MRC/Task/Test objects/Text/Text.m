@@ -21,7 +21,8 @@
 
 + (instancetype)textWithContent:(NSString *)content
 {
-    return [[Text alloc] initWithContent: content];
+    //NSLog(@"Doc content1: %lu", content.retainCount);
+    return [[[Text alloc] initWithContent: content] autorelease];
 }
 
 @end

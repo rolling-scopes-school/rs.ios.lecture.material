@@ -12,7 +12,6 @@
 
 - (void)printObject:(NSObject<Printable> *)object {
     NSString *content  = [object content];
-
     NSLog(@"Printing result:\n%@", content);
 }
 
