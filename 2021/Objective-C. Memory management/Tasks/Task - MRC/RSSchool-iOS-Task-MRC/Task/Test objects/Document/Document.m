@@ -30,14 +30,15 @@
 - (NSString *)content {
     
     NSString *content = [[NSString alloc] initWithFormat: @"%@\n", self.title.content];
-    
+   
     for (Page *page in self.pages) {
         @autoreleasepool {
             content = [content stringByAppendingFormat:@"%@\n", page.content];
             [content retain];
+            NSLog(@"tdoc Title: %lu", content.retainCount);
         }
     }
-    //NSLog(@"tdoc Title: %lu", content.retainCount);  //rc=1
+    NSLog(@"tdoc Title2: %lu", content.retainCount);  //rc=1
     return [content autorelease];
 }
 -(void)dealloc{

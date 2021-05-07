@@ -33,7 +33,7 @@
         content = [content stringByAppendingFormat:@"\nHidden text: %@", self.hiddenText.content];
         //NSLog(@"page cont: %lu", content.retainCount);
     }
-  //  NSLog(@"page cont: %lu", content.retainCount);
+    NSLog(@"page cont: %lu", content.retainCount);
     return content;
 }
 
