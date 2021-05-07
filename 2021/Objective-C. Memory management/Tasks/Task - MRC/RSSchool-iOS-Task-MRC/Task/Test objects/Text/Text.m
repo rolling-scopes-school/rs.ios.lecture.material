@@ -24,5 +24,8 @@
     //NSLog(@"Doc content1: %lu", content.retainCount);
     return [[[Text alloc] initWithContent: content] autorelease];
 }
-
+-(void)dealloc{
+    //[_content release];
+    [super dealloc];
+}
 @end

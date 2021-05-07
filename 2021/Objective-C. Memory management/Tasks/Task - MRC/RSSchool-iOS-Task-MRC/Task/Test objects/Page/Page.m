@@ -28,11 +28,12 @@
 
 - (NSString *)content {
     NSString *content = [NSString stringWithFormat:@"Page %lu: %@", self.number, self.text.content];
-
+    
     if (self.hiddenText.content) {
         content = [content stringByAppendingFormat:@"\nHidden text: %@", self.hiddenText.content];
+        //NSLog(@"page cont: %lu", content.retainCount);
     }
-
+  //  NSLog(@"page cont: %lu", content.retainCount);
     return content;
 }
 
@@ -41,5 +42,9 @@
     [_document release];
     _document = document;
 }
-
+-(void)dealloc{
+    [_text release];
+    [_hiddenText release];
+    [super dealloc];
+}
 @end

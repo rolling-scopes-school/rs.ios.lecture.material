@@ -63,14 +63,18 @@
 
 - (Page *)getTitlePage {
     NSString *title = [[NSString alloc] initWithUTF8String:"How to become the best iOS developer?"];
+
     Text *text = [[Text alloc] initWithContent:title];
-   
+   // NSLog(@"task text: %lu", title.retainCount);  //rc=1
+    
     Page *page = [[Page alloc] init];
     page.number = 1;
     page.text = text;
     [title autorelease];
-    [text autorelease];
-    //NSLog(@"task pageTitle: %lu", page.retainCount);  //rc=1
+   // [title release];
+    //[text autorelease];
+    [text release];
+    //NSLog(@"task pageTitle: %lu", title.retainCount);  //rc=1
     return [page autorelease];
     //return page;
 
@@ -81,13 +85,14 @@
     Text *text = [[Text alloc] initWithContent:title];
     
     Page *page = [Page pageWithText:text];
+    [page retain];
     page.number = 2;
     page.text = text;
     
-    
-    [title autorelease];
-    [text autorelease];
-    [page retain];
+    [title release];
+    [text release];
+    //[page retain];
+   // NSLog(@"task pageTitle: %lu", page.retainCount);  //rc=1
     return [page autorelease];
     //return page;
 }
@@ -103,8 +108,8 @@
     page.hiddenText = hiddenText;
     [title autorelease];
     //NSLog(@"task pageLast: %lu", title.retainCount);  //rc=1
-    [hiddenText autorelease];
-  
+    [hiddenText release];
+  //  NSLog(@"task pageTitle: %lu", page.retainCount);  //rc=1
     return [page autorelease];
     //return page;
 }

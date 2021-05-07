@@ -15,9 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Page : NSObject<Printable>
 
-//@property (nonatomic, retain) Text *text;
-@property (nonatomic, assign) Text *text;
-@property (nonatomic, assign) Text *hiddenText;
+@property (nonatomic, retain) Text *text;
+//@property (nonatomic, assign) Text *text;
+//@property (nonatomic, assign) Text *hiddenText;
+@property (nonatomic, retain) Text *hiddenText;
 @property (nonatomic, assign) NSInteger number;
 @property (nonatomic, assign) Document *document;
 //@property (nonatomic, retain) Document *document;

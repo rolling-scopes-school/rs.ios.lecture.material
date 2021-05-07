@@ -14,11 +14,14 @@
 // TASK 0 - Rewrite main function to support working with MRC
 
 int main(int argc, char * argv[]) {
-    NSString * appDelegateClassName;
+    //NSString * appDelegateClassName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
-        appDelegateClassName = NSStringFromClass([AppDelegate class]);
-        [appDelegateClassName retain];
+       // NSString * appDelegateClassName = NSStringFromClass([AppDelegate class]);
+        
+       // NSLog(@"Doc content1: %lu", appDelegateClassName.retainCount);
+        //return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
-    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    
 }

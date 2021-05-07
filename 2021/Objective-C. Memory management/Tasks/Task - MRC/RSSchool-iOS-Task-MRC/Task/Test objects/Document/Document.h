@@ -15,11 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Document : NSObject<Printable>
 
-//@property (nonatomic, copy) NSArray *pages;
-@property (nonatomic, assign) NSArray *pages;
-//@property (nonatomic, retain) Text *title;
-@property (nonatomic, assign) Text *title;
-//@property (nonatomic, assign) NSString *content;//my
+@property (nonatomic, retain) NSArray *pages;
+//@property (nonatomic, assign) NSArray *pages;
+@property (nonatomic, retain) Text *title;
+//@property (nonatomic, assign) Text *title;
 - (instancetype)initWithTitle:(Text *)title;
 - (void)addPage:(Page *)page;
 
