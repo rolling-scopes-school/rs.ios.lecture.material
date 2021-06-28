@@ -10,7 +10,7 @@
 
 @implementation RSView
 
-- (instancetype)initWithFrame:(CGRect)frame andColor:(nonnull UIColor *)color
+-(instancetype)initWithFrame:(CGRect)frame andColor:(UIColor *)color
 {
     self = [super initWithFrame:frame];
     if (self) {
