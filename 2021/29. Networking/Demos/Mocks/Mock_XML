@@ -1,0 +1,80 @@
+<users>
+  <user>
+    <personInfo>
+      <firstName>Katherine</firstName>
+      <lastName>Adams</lastName>
+      <age>26</age>
+    </personInfo>
+    <work>
+      <company>Apple</company>
+      <title>Software Engineer</title>
+      <keySkill>Swift</keySkill>
+    </work>
+    <avatarUrl>https://developer.apple.com/wwdc20/images/hero/memoji/large/R2_2x.jpg?3</avatarUrl>
+  </user>
+  <user>
+    <personInfo>
+      <firstName>Eddy</firstName>
+      <lastName>Williams</lastName>
+      <age>30</age>
+    </personInfo>
+    <work>
+      <company>Apple</company>
+      <title>Senior Software Engineer</title>
+      <keySkill>Objective-C</keySkill>
+    </work>
+    <avatarUrl>https://developer.apple.com/wwdc20/images/hero/memoji/large/R3_2x.jpg?3</avatarUrl>
+  </user>
+  <user>
+    <personInfo>
+      <firstName>Craig</firstName>
+      <lastName>Riccio</lastName>
+      <age>23</age>
+    </personInfo>
+    <work>
+      <company>Apple</company>
+      <title>Software Engineer</title>
+      <keySkill>Objective-C</keySkill>
+    </work>
+    <avatarUrl>https://developer.apple.com/wwdc20/images/hero/memoji/large/L7_2x.jpg?3</avatarUrl>
+  </user>
+  <user>
+    <personInfo>
+      <firstName>Lisa</firstName>
+      <lastName>Jackson</lastName>
+      <age>23</age>
+    </personInfo>
+    <work>
+      <company>Apple</company>
+      <title>Junior Software Engineer</title>
+      <keySkill>Swift</keySkill>
+    </work>
+    <avatarUrl>https://developer.apple.com/wwdc20/images/hero/memoji/large/L3_2x.jpg?3</avatarUrl>
+  </user>
+  <user>
+    <personInfo>
+      <firstName>Isabel</firstName>
+      <lastName>Mahe</lastName>
+      <age>25</age>
+    </personInfo>
+    <work>
+      <company>Apple</company>
+      <title>Software Engineer</title>
+      <keySkill>Objective-C</keySkill>
+    </work>
+    <avatarUrl>https://developer.apple.com/wwdc20/images/hero/memoji/large/R4_2x.jpg?3</avatarUrl>
+  </user>
+  <user>
+    <personInfo>
+      <firstName>Phill</firstName>
+      <lastName>Maestri</lastName>
+      <age>26</age>
+    </personInfo>
+    <work>
+      <company>Apple</company>
+      <title>Senior Software Engineer</title>
+      <keySkill>Swift</keySkill>
+    </work>
+    <avatarUrl>https://developer.apple.com/wwdc20/images/hero/memoji/large/M0_2x.jpg?3</avatarUrl>
+  </user>
+</users>

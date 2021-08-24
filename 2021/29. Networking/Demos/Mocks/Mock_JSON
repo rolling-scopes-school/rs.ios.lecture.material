@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "personInfo": {
+        "firstName": "Katherine",
+        "lastName": "Adams",
+  	    "age": 26
+      },
+      "work": {
+        "company": "Apple",
+        "title": "Software Engineer",
+        "keySkill": "Swift"
+      },
+      "avatarUrl": "https://developer.apple.com/wwdc20/images/hero/memoji/large/R2_2x.jpg?3"
+    },
+    {
+      "personInfo": {
+        "firstName": "Eddy",
+        "lastName": "Williams",
+  	    "age": 30
+      },
+      "work": {
+        "company": "Apple",
+        "title": "Senior Software Engineer",
+        "keySkill": "Objective-C"
+      },
+      "avatarUrl": "https://developer.apple.com/wwdc20/images/hero/memoji/large/R3_2x.jpg?3"
+    },
+    {
+      "personInfo": {
+        "firstName": "Craig",
+        "lastName": "Riccio",
+  	    "age": 23
+      },
+      "work": {
+        "company": "Apple",
+        "title": "Software Engineer",
+        "keySkill": "Objective-C"
+      },
+      "avatarUrl": "https://developer.apple.com/wwdc20/images/hero/memoji/large/L7_2x.jpg?3"
+    },
+    {
+      "personInfo": {
+        "firstName": "Lisa",
+        "lastName": "Jackson",
+  	    "age": 23
+      },
+      "work": {
+        "company": "Apple",
+        "title": "Junior Software Engineer",
+        "keySkill": "Swift"
+      },
+      "avatarUrl": "https://developer.apple.com/wwdc20/images/hero/memoji/large/L3_2x.jpg?3"
+    },
+    {
+      "personInfo": {
+        "firstName": "Isabel",
+        "lastName": "Mahe",
+  	    "age": 25
+      },
+      "work": {
+        "company": "Apple",
+        "title": "Software Engineer",
+        "keySkill": "Objective-C"
+      },
+      "avatarUrl": "https://developer.apple.com/wwdc20/images/hero/memoji/large/R4_2x.jpg?3"
+    },
+    {
+      "personInfo": {
+        "firstName": "Phill",
+        "lastName": "Maestri",
+  	    "age": 26
+      },
+      "work": {
+        "company": "Apple",
+        "title": "Senior Software Engineer",
+        "keySkill": "Swift"
+      },
+      "avatarUrl": "https://developer.apple.com/wwdc20/images/hero/memoji/large/M0_2x.jpg?3"
+    }
+  ]
+}
