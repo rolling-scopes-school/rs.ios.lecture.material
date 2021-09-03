@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RSViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1J9-10-8Ni">
+                                <rect key="frame" x="0.0" y="796" width="414" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VtC-8p-Vbb">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="66"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS_School_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-YG-KBA">
+                                                <rect key="frame" x="16" y="13" width="83.5" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Udn-k8-TLf"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CONSOLE" translatesAutoresizingMaskIntoConstraints="NO" id="JFG-ud-bWn">
+                                                <rect key="frame" x="295" y="13" width="103" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="tYs-5r-Um7"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="XsD-YG-KBA" firstAttribute="leading" secondItem="VtC-8p-Vbb" secondAttribute="leading" constant="16" id="17W-ws-m9m"/>
+                                            <constraint firstItem="JFG-ud-bWn" firstAttribute="centerY" secondItem="VtC-8p-Vbb" secondAttribute="centerY" id="9Z0-VT-BLD"/>
+                                            <constraint firstItem="XsD-YG-KBA" firstAttribute="centerY" secondItem="VtC-8p-Vbb" secondAttribute="centerY" id="QJu-Ap-40I"/>
+                                            <constraint firstAttribute="trailing" secondItem="JFG-ud-bWn" secondAttribute="trailing" constant="16" id="zlc-Kk-3gN"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="c9b-Kn-Hve"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="VtC-8p-Vbb" firstAttribute="leading" secondItem="1J9-10-8Ni" secondAttribute="leading" id="B9S-PW-CVB"/>
+                                    <constraint firstAttribute="height" constant="100" id="KGO-43-i0R"/>
+                                    <constraint firstItem="VtC-8p-Vbb" firstAttribute="top" secondItem="1J9-10-8Ni" secondAttribute="top" id="XnS-0G-CsR"/>
+                                    <constraint firstItem="vPx-f9-PUk" firstAttribute="bottom" secondItem="VtC-8p-Vbb" secondAttribute="bottom" id="qmA-kZ-csF"/>
+                                    <constraint firstAttribute="trailing" secondItem="VtC-8p-Vbb" secondAttribute="trailing" id="tG7-S8-DCf"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="vPx-f9-PUk"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-2g-LGO">
+                                <rect key="frame" x="16" y="44" width="382" height="752"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1J9-10-8Ni" secondAttribute="trailing" id="3Iy-Hs-usa"/>
+                            <constraint firstAttribute="bottom" secondItem="1J9-10-8Ni" secondAttribute="bottom" id="Nvb-O9-q7H"/>
+                            <constraint firstItem="1J9-10-8Ni" firstAttribute="top" secondItem="bMi-2g-LGO" secondAttribute="bottom" id="RqI-TT-9rf"/>
+                            <constraint firstItem="bMi-2g-LGO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dDD-MI-89R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bMi-2g-LGO" secondAttribute="trailing" constant="16" id="kCi-0n-RrS"/>
+                            <constraint firstItem="1J9-10-8Ni" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nfK-Gf-SjU"/>
+                            <constraint firstItem="bMi-2g-LGO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wfa-aC-bYZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="bMi-2g-LGO" id="fNr-Gg-SMO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="109"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CONSOLE" width="102.5" height="19.5"/>
+        <image name="RS_School_Logo" width="83.5" height="30"/>
+    </resources>
+</document>
