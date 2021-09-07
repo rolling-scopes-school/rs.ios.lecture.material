@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9040909424A73440004142DE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9060649824A3AF1E004FDE99 /* libsqlite3.tbd */; };
+		9060648024A3AEDC004FDE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060647F24A3AEDC004FDE99 /* AppDelegate.m */; };
+		9060648324A3AEDC004FDE99 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060648224A3AEDC004FDE99 /* SceneDelegate.m */; };
+		9060648624A3AEDC004FDE99 /* RSScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060648524A3AEDC004FDE99 /* RSScoresViewController.m */; };
+		9060648924A3AEDC004FDE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9060648724A3AEDC004FDE99 /* Main.storyboard */; };
+		9060648B24A3AEDD004FDE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060648A24A3AEDD004FDE99 /* Assets.xcassets */; };
+		9060648E24A3AEDD004FDE99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9060648C24A3AEDD004FDE99 /* LaunchScreen.storyboard */; };
+		9060649124A3AEDD004FDE99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060649024A3AEDD004FDE99 /* main.m */; };
+		9060649C24A3AF39004FDE99 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060649B24A3AF39004FDE99 /* SQLiteManager.m */; };
+		906064A024A3B6C8004FDE99 /* RSScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060649E24A3B6C8004FDE99 /* RSScoreTableViewCell.m */; };
+		906064A124A3B6C8004FDE99 /* RSScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9060649F24A3B6C8004FDE99 /* RSScoreTableViewCell.xib */; };
+		906064A424A3B9BF004FDE99 /* RSProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 906064A324A3B9BF004FDE99 /* RSProgressView.m */; };
+		906064AA24A3BFD9004FDE99 /* RSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 906064A924A3BFD9004FDE99 /* RSStudent.m */; };
+		906064AD24A3C054004FDE99 /* RSMentor.m in Sources */ = {isa = PBXBuildFile; fileRef = 906064AC24A3C054004FDE99 /* RSMentor.m */; };
+		906064B024A3E5D5004FDE99 /* RSStudentFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906064AF24A3E5D5004FDE99 /* RSStudentFormViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9060647B24A3AEDC004FDE99 /* SQLite_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9060647E24A3AEDC004FDE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9060647F24A3AEDC004FDE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9060648124A3AEDC004FDE99 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9060648224A3AEDC004FDE99 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9060648424A3AEDC004FDE99 /* RSScoresViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSScoresViewController.h; sourceTree = "<group>"; };
+		9060648524A3AEDC004FDE99 /* RSScoresViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSScoresViewController.m; sourceTree = "<group>"; };
+		9060648824A3AEDC004FDE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9060648A24A3AEDD004FDE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9060648D24A3AEDD004FDE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9060648F24A3AEDD004FDE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9060649024A3AEDD004FDE99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9060649824A3AF1E004FDE99 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9060649A24A3AF39004FDE99 /* SQLiteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		9060649B24A3AF39004FDE99 /* SQLiteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		9060649D24A3B6C8004FDE99 /* RSScoreTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSScoreTableViewCell.h; sourceTree = "<group>"; };
+		9060649E24A3B6C8004FDE99 /* RSScoreTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSScoreTableViewCell.m; sourceTree = "<group>"; };
+		9060649F24A3B6C8004FDE99 /* RSScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSScoreTableViewCell.xib; sourceTree = "<group>"; };
+		906064A224A3B9BF004FDE99 /* RSProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSProgressView.h; sourceTree = "<group>"; };
+		906064A324A3B9BF004FDE99 /* RSProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSProgressView.m; sourceTree = "<group>"; };
+		906064A824A3BFD9004FDE99 /* RSStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSStudent.h; sourceTree = "<group>"; };
+		906064A924A3BFD9004FDE99 /* RSStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSStudent.m; sourceTree = "<group>"; };
+		906064AB24A3C054004FDE99 /* RSMentor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSMentor.h; sourceTree = "<group>"; };
+		906064AC24A3C054004FDE99 /* RSMentor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMentor.m; sourceTree = "<group>"; };
+		906064AE24A3E5D5004FDE99 /* RSStudentFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSStudentFormViewController.h; sourceTree = "<group>"; };
+		906064AF24A3E5D5004FDE99 /* RSStudentFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSStudentFormViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9060647824A3AEDC004FDE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9040909424A73440004142DE /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9040909324A733BB004142DE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9060649A24A3AF39004FDE99 /* SQLiteManager.h */,
+				9060649B24A3AF39004FDE99 /* SQLiteManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9060647224A3AEDC004FDE99 = {
+			isa = PBXGroup;
+			children = (
+				9060647D24A3AEDC004FDE99 /* SQLite_Demo */,
+				9060647C24A3AEDC004FDE99 /* Products */,
+				9060649724A3AF1E004FDE99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9060647C24A3AEDC004FDE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9060647B24A3AEDC004FDE99 /* SQLite_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9060647D24A3AEDC004FDE99 /* SQLite_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9040909324A733BB004142DE /* Managers */,
+				906064B524A495E1004FDE99 /* Models */,
+				906064B224A4958A004FDE99 /* UI */,
+				906064B124A49577004FDE99 /* Support Files */,
+				9060648F24A3AEDD004FDE99 /* Info.plist */,
+			);
+			path = SQLite_Demo;
+			sourceTree = "<group>";
+		};
+		9060649724A3AF1E004FDE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9060649824A3AF1E004FDE99 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		906064B124A49577004FDE99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9060647E24A3AEDC004FDE99 /* AppDelegate.h */,
+				9060647F24A3AEDC004FDE99 /* AppDelegate.m */,
+				9060648124A3AEDC004FDE99 /* SceneDelegate.h */,
+				9060648224A3AEDC004FDE99 /* SceneDelegate.m */,
+				9060649024A3AEDD004FDE99 /* main.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		906064B224A4958A004FDE99 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9060648724A3AEDC004FDE99 /* Main.storyboard */,
+				9060648A24A3AEDD004FDE99 /* Assets.xcassets */,
+				9060648C24A3AEDD004FDE99 /* LaunchScreen.storyboard */,
+				906064B424A495AE004FDE99 /* Views */,
+				906064B324A495A1004FDE99 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		906064B324A495A1004FDE99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9060648424A3AEDC004FDE99 /* RSScoresViewController.h */,
+				9060648524A3AEDC004FDE99 /* RSScoresViewController.m */,
+				906064AE24A3E5D5004FDE99 /* RSStudentFormViewController.h */,
+				906064AF24A3E5D5004FDE99 /* RSStudentFormViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		906064B424A495AE004FDE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9060649D24A3B6C8004FDE99 /* RSScoreTableViewCell.h */,
+				9060649E24A3B6C8004FDE99 /* RSScoreTableViewCell.m */,
+				9060649F24A3B6C8004FDE99 /* RSScoreTableViewCell.xib */,
+				906064A224A3B9BF004FDE99 /* RSProgressView.h */,
+				906064A324A3B9BF004FDE99 /* RSProgressView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		906064B524A495E1004FDE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				906064A824A3BFD9004FDE99 /* RSStudent.h */,
+				906064A924A3BFD9004FDE99 /* RSStudent.m */,
+				906064AB24A3C054004FDE99 /* RSMentor.h */,
+				906064AC24A3C054004FDE99 /* RSMentor.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9060647A24A3AEDC004FDE99 /* SQLite_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9060649424A3AEDD004FDE99 /* Build configuration list for PBXNativeTarget "SQLite_Demo" */;
+			buildPhases = (
+				9060647724A3AEDC004FDE99 /* Sources */,
+				9060647824A3AEDC004FDE99 /* Frameworks */,
+				9060647924A3AEDC004FDE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite_Demo;
+			productName = SQLite_Demo;
+			productReference = 9060647B24A3AEDC004FDE99 /* SQLite_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9060647324A3AEDC004FDE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Victor Semenchuk";
+				TargetAttributes = {
+					9060647A24A3AEDC004FDE99 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9060647624A3AEDC004FDE99 /* Build configuration list for PBXProject "SQLite_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9060647224A3AEDC004FDE99;
+			productRefGroup = 9060647C24A3AEDC004FDE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9060647A24A3AEDC004FDE99 /* SQLite_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9060647924A3AEDC004FDE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060648E24A3AEDD004FDE99 /* LaunchScreen.storyboard in Resources */,
+				906064A124A3B6C8004FDE99 /* RSScoreTableViewCell.xib in Resources */,
+				9060648B24A3AEDD004FDE99 /* Assets.xcassets in Resources */,
+				9060648924A3AEDC004FDE99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9060647724A3AEDC004FDE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060649C24A3AF39004FDE99 /* SQLiteManager.m in Sources */,
+				906064B024A3E5D5004FDE99 /* RSStudentFormViewController.m in Sources */,
+				9060648624A3AEDC004FDE99 /* RSScoresViewController.m in Sources */,
+				906064AA24A3BFD9004FDE99 /* RSStudent.m in Sources */,
+				9060648024A3AEDC004FDE99 /* AppDelegate.m in Sources */,
+				906064A024A3B6C8004FDE99 /* RSScoreTableViewCell.m in Sources */,
+				9060649124A3AEDD004FDE99 /* main.m in Sources */,
+				906064AD24A3C054004FDE99 /* RSMentor.m in Sources */,
+				9060648324A3AEDC004FDE99 /* SceneDelegate.m in Sources */,
+				906064A424A3B9BF004FDE99 /* RSProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9060648724A3AEDC004FDE99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9060648824A3AEDC004FDE99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9060648C24A3AEDD004FDE99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9060648D24A3AEDD004FDE99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9060649224A3AEDD004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9060649324A3AEDD004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9060649524A3AEDD004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M3HNT6J9D;
+				INFOPLIST_FILE = SQLite_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorsemenchuk.SQLite-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9060649624A3AEDD004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M3HNT6J9D;
+				INFOPLIST_FILE = SQLite_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorsemenchuk.SQLite-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9060647624A3AEDC004FDE99 /* Build configuration list for PBXProject "SQLite_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9060649224A3AEDD004FDE99 /* Debug */,
+				9060649324A3AEDD004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9060649424A3AEDD004FDE99 /* Build configuration list for PBXNativeTarget "SQLite_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9060649524A3AEDD004FDE99 /* Debug */,
+				9060649624A3AEDD004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9060647324A3AEDC004FDE99 /* Project object */;
+}
