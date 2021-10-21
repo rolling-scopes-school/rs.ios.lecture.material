@@ -9,7 +9,9 @@
 //:
 //: Измените функцию так, чтобы она возвращала наименьшее значение из массива `items`.
 
-func lowest<T>(_ items: [T]) -> T? { nil }
+func lowest<T: Comparable>(_ items: [T]) -> T? {
+    items.min()
+}
 
 let items: [Int] = (0...10).compactMap { (-200...($0 * 100)).randomElement() }
 
@@ -25,11 +27,11 @@ if let value = lowest(items) {
 //: 1. Элементы хранились в контейнере типа `Set`
 //: 2. Метод `dequeue` извлекал минимальный элемент
 
-struct OrderedQueue<T> {
+struct OrderedQueue<T: Hashable & Comparable> {
     
-    var items: [T]
+    var items: Set<T>
     
-    mutating func dequeue() -> T? { nil }
+    mutating func dequeue() -> T? { self.items.min() }
     
 }
 
@@ -37,28 +39,39 @@ struct OrderedQueue<T> {
 //:
 //: Произведите рефакторинг кода, применяя знания об `associatedtype`, для классов, описанных ниже.
 //:
+protocol Id {
+    associatedtype Id
+    var id: Id { get }
+}
 
-class Passenger {
+protocol Items {
+    associatedtype Item: Id
+    var items: [Item] { get }
+}
+
+
+
+class Passenger: Id {
     var id: String = ""
 }
 
-class Container {
+class Container: Id {
     var id: String = ""
 }
 
-class Van {
+class Van: Id {
     var id: String = ""
 }
 
-class Airbus {
+class Airbus: Items {
     var items: [Passenger] = []
 }
 
-class Train {
+class Train: Items {
     var items: [Van] = []
 }
 
-class Seaship {
+class Seaship: Items {
     var items: [Container] = []
 }
 
@@ -70,10 +83,19 @@ class Seaship {
 //: 1. Если тип `T` представлен числовым типом, в интерфейсе доступно свойство `count`, возвращающее количество элементов
 //: 2. Если тип `T` представлен строковым типом, в интерфейсе доступен метод `prefix`, возвращающий наибольший общий префикс у всех элементов
 
-extension OrderedQueue {
-    
+extension OrderedQueue where T: Numeric {
+    func count() -> Int {
+        return self.items.count
+    }
 }
 
-extension OrderedQueue {
-    
+extension OrderedQueue where T == String {
+    func prefix(_ length: Int) -> [T] {
+        return Array(self.items.dropFirst(length - 1))
+    }
 }
+
+
+var test = OrderedQueue(items: ["one", "two"])
+var test1 = OrderedQueue(items: [1, 2, 3])
+test.prefix(1)

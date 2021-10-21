@@ -17,17 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIWindow *window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     window.backgroundColor = [UIColor greenColor];
-
+    
     RSViewController *rootViewController = [[RSViewController alloc] init];
     rootViewController.view.backgroundColor = [UIColor redColor];
-
+    
     window.rootViewController = rootViewController;
-
+    
     self.window = window;
     [self.window makeKeyAndVisible];
-
+    
     return YES;
 }
 

@@ -21,7 +21,7 @@
     window.backgroundColor = [UIColor greenColor];
 
     RSViewController *rootViewController = [[RSViewController alloc] init];
-    rootViewController.view.backgroundColor = [UIColor redColor];
+    rootViewController.view.backgroundColor = [UIColor blackColor];
 
     window.rootViewController = rootViewController;
 

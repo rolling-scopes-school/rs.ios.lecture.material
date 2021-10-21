@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RSView : UIView
 
-- (instancetype)initWithFrame:(CGRect)frame andColor:(UIColor *)color;
+-(instancetype)initWithFrame:(CGRect)frame andColor:(UIColor *)color;
 
 @end
 

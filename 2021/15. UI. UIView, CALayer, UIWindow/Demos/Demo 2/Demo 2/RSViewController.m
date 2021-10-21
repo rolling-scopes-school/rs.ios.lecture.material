@@ -16,24 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    UIView *myView = [[UIView alloc] initWithFrame:CGRectMake(40.0, 60.0, 300.0, 300.0)];
-
-    myView.layer.cornerRadius = 20.0;
-    myView.layer.borderColor = [UIColor yellowColor].CGColor;
-    myView.layer.borderWidth = 3.0;
+    
+    UIView *myView = [[UIView alloc] initWithFrame:CGRectMake(40, 60, 300, 300)];
     myView.layer.backgroundColor = [UIColor purpleColor].CGColor;
-
-    myView.layer.shadowOffset = CGSizeMake(-15.0, 20.0);
-    myView.layer.shadowRadius = 5.0;
+    myView.layer.cornerRadius = 20;
+    myView.layer.borderWidth = 3;
+    myView.layer.borderColor = [UIColor yellowColor].CGColor;
+    
+    myView.layer.shadowOffset = CGSizeMake(-15, 20);
+    myView.layer.shadowRadius = 5;
     myView.layer.shadowOpacity = 0.5;
-
-    CALayer *blueSublayer = [CALayer layer];
-    blueSublayer.backgroundColor = [UIColor blueColor].CGColor;
-    blueSublayer.frame = CGRectMake(30.0, 30.0, 100.0, 150.0);
-    [myView.layer addSublayer:blueSublayer];
-
+    
+    CALayer *blueSubLayer = [CALayer layer];
+    blueSubLayer.backgroundColor = [UIColor blueColor].CGColor;
+    blueSubLayer.frame = CGRectMake(30, 30, 100, 150);
+    [myView.layer addSublayer:blueSubLayer];
+    
     [self.view addSubview:myView];
+
+    
 }
 
 @end
